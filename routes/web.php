@@ -32,5 +32,3 @@ Route::get('/cart/removeAll/', 'App\Http\Controllers\CartController@removeAll')-
 Route::get('/image/index', 'App\Http\Controllers\ImageController@index')->name("image.index");
 
 Route::post('/image/save', 'App\Http\Controllers\ImageController@save')->name("image.save");
-
-
